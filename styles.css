@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+/* Global Styles */
+
+body {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	max-width: 800px;
+	padding-left: 2.275%;
+	padding-right: 2.275%;
+}
+
+header {
+	text-align: center;
+	display: block;
+}
+
+
+header .saturnGraphic {
+	width: 259px;
+	border-radius: 50%;
+	height: 259px;
+	margin-top: 60px;
+	
+}
+
+hr {
+	background-color: #6A2144;
+	height: 5px;
+}
+
+/* Start here */
+h1 {
+	margin: 0;
+	
+}
+
+h2 {
+	margin: 5px;
+	font-size: 16px;
+	font-family: Georgia, serif;
+	color: #282828;
+
+	
+}
+
+p {
+	font-size: 14px;
+	font-family: sans-serif;
+	color: #6F6F6F;
+	font-weight:  500;
+	line-height: 22px;
+}
+
+
+
+
+
+
+
+
+/* Desktops and laptops  */
+@media only screen and (min-width:1025px) {
+/* Header */
+header .profileLogo .logoPlaceholder {
+	float: left;
+	margin-bottom: 50px;
+}
+header .saturnGraphic {
+	float: left;
+	clear: both;
+	margin-right: 3%;
+}
+header .profileHeader {
+	text-align: left;
+	padding-top: 10%;
+}
+
+
+}
